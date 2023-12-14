@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Greetings Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img"> 
+                    Greetings Website
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Acasa</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#present" class="nav__link">Cadou Secret</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+
+                    <img src="assets/img/nav-light.png" alt="" class="nav__img">
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Craciun Fericit Si<br>Un An Nou Fericit !</h1>
+                        <p class="home__description">
+                          Cu ocazia sărbătorilor, îți doresc un Crăciun plin de bucurie și un An Nou bogat în realizări și împliniri! La mulți ani!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRESENT ====================-->
+            <section class="celebrate section container" id="present">
+                <div class="celebrate__container grid">
+                    <div class="celebrate__data">
+                        <h2 class="section__title celebrate__title">
+                            Am pregatit mai jos <br> un cadou pentru tine
+                        </h2>
+                        <p class="celebrate__description">
+                          Daca apesi pe butonul de mai jos, vei fi trimit catre o pagina, unde vei avea de descifrat un mesaj, pentru a ajunge la surpriza
+                        </p>
+                        <a href="secret.html" class="button">SECRET</a>
+                    </div>
+
+                    <img src="assets/img/celebrate.png" alt="" class="celebrate__img">
+                </div>
+            </section>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
